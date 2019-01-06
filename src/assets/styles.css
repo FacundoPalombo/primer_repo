@@ -1,4 +1,9 @@
 
 body{
-    background-color: cadetblue; 
+    margin:0;
+
+}
+img{
+    max-width: 100%;
+    vertical-align: top;
 }
