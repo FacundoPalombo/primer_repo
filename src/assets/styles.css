@@ -2,8 +2,17 @@
 body{
     margin:0;
     border: 5px solid rgba(44, 72, 104, 0.411);
+
 }
 img{
     max-width: 100%;
     vertical-align: top;
+}
+img#responsiveImg{
+    display:none;
+}
+@media screen and (max-width:768px){
+    img #responsiveImg{
+        display:block;
+    }
 }
