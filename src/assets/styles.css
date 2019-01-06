@@ -8,3 +8,11 @@ img{
     max-width: 100%;
     vertical-align: top;
 }
+img#responsiveImg{
+    display:none;
+}
+@media screen and (max-width:768px){
+    img #responsiveImg{
+        display:block;
+    }
+}
